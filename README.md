@@ -1,2 +1,7 @@
 # autocompletes
-@see https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill
+
+A sample to see the actual behaviors of the HTML autocomplete attributes.
+
+## DEMO
+
+https://hrdtbs.github.io/autocompletes/
