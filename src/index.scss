@@ -1,3 +1,19 @@
+:root {
+  --main-text: #252525;
+  --main-bg: white;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text: #ddd;
+    --main-bg: #252525;
+  }
+}
+body {
+  color: var(--main-text);
+  background-color: var(--main-bg);
+}
+
+
 section {
   margin: 0px auto;
   max-width:40rem;
