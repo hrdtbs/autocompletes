@@ -278,13 +278,15 @@ const autoCompletes = [
 const App = () => {
   return (
     <section>
-      <h1>The HTML autocomplete attributes</h1>
-      <p>
-        Specification：
-        <a href="https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill">
-          HTML Living Standard
-        </a>
-      </p>
+      <header>
+        <h1>The HTML autocomplete attributes</h1>
+        <p>
+          Specification：
+          <a href="https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill">
+            HTML Living Standard
+          </a>
+        </p>
+      </header>
       <form>
         {autoCompletes.map(({ value, type, ...props }) => {
           return type === "multiline" ? (

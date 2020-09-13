@@ -1,13 +1,35 @@
 section {
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 1em;
-  @media (min-width: 40rem) {
-    max-width: 80%;
+  margin: 0px auto;
+  max-width:40rem;
+  margin:0 auto;
+  h1{
+    font-size:2.5em;
+    margin:1.25em 0 0;
   }
-  h1,
-  p {
-    margin-bottom: 1em;
+  h1 + p {
+    margin-top:0.5em
+  }
+  p{
+    margin:1em 0;
+    -webkit-hyphens:auto;
+        -ms-hyphens:auto;
+            hyphens:auto;
+    &:first-child{
+      margin-top:0;
+    }
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  header{
+    margin-bottom:3em;
+    p{
+      font-size:0.6em;
+      color:#aaaaaa;
+    }
+    h1 + p{
+      margin-top:0.25em;
+    }
   }
 }
 form {
@@ -74,5 +96,19 @@ textarea {
   &::-webkit-input-placeholder,
   &:-ms-input-placeholder {
     color: #aaaaaa;
+  }
+}
+
+
+a{
+  color:#7fbfff;
+  &:visited{
+    color:#bf7fff;
+  }
+  &:hover, &:active{
+    outline-width:0;
+  }
+  &:hover{
+    color:#ff7f7f;
   }
 }
