@@ -1,6 +1,6 @@
 # autocompletes
 
-A sample to see the actual behaviors of the HTML autocomplete attributes.
+An example of the HTML autocomplete attributes.
 
 ## DEMO
 
